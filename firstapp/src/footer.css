@@ -1,0 +1,21 @@
+.foot{
+    padding:1% 0 4% 20%;
+    display:flex;
+    column-gap:20%;
+    background-color: aqua;
+}
+
+ul{
+    list-style: none;
+    font-weight:100 ;
+    font-size: 10px;}
+li{
+    padding-top: 10px;
+    
+    text-decoration: none;
+  
+
+}
+.a{
+    text-decoration: none;
+}

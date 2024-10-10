@@ -1,0 +1,27 @@
+.nav{
+    background-color:burlywood;
+   display: flex;
+   gap:60%;
+}   
+.nav ul{
+    list-style:none;
+    display: flex;
+    padding-top:10px;
+    column-gap: 50px;
+    justify-content: right;
+}
+
+.nav img{
+ height:60px;
+
+}
+li:hover{
+    background-color:gray;
+    
+}
+ a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}

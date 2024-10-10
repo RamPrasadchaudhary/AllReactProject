@@ -1,0 +1,64 @@
+.body{
+    margin: 0px auto;
+    display:flex;
+}
+.info{
+    display:inline;
+    
+}
+.intro{
+   
+    display: inline;
+}
+.info, .photo{
+    width: 50%;
+    height: 100vh;
+   align-content: center;
+   padding-left: 12em;
+   
+}
+.info .rect{
+    height:100px;
+    width:80%;
+    position:static;
+    background-color: aqua;
+   rotate: 45deg;
+    border-end-end-radius:50%;
+    
+}
+.rect p{
+    text-align:left;
+ font-weight: bold;
+    font-size: x-large;
+text-decoration: solid;
+}
+.rect1 p{
+text-align: center;
+font-weight: bold;
+font-size: x-large;
+text-decoration: solid;
+}
+.rect1{
+    height:100px;
+    width:80%;
+    rotate: -45deg;
+    margin-bottom: 20vh;
+    background-color: aqua; 
+    border-start-end-radius:50%;
+}
+
+.info{
+    background-color: azure;
+
+}
+img{
+    margin-top: 10px;
+    border-radius: 10%;
+}
+.photo{
+    background-color: azure;
+    display: inline;
+}
+img:hover{
+    width: fit-content;
+}

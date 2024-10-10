@@ -1,0 +1,27 @@
+table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures that borders are merged */
+  }
+  
+  th, td {
+    border: 1px solid #ccc; /* Light gray border */
+    padding: 10px; /* Padding for better spacing */
+    text-align: left; /* Align text to the left */
+  }
+  
+  th {
+    background-color: #f4f4f4; /* Light gray background for headers */
+  }
+  table {
+    width: 100%;
+    overflow-x: auto; /* Enables horizontal scrolling on small screens */
+  }
+  
+  @media (max-width: 600px) {
+    th, td {
+     /* Stack rows */
+     
+      width: 100%; /* Full width for each item */
+    }
+  }
+  

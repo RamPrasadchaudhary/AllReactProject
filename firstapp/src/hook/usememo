@@ -1,0 +1,28 @@
+// import React, { useMemo, useState } from 'react';
+
+// function ExpensiveComponent({ num }) {
+//   // Simulate an expensive computation with a smaller number of iterations
+//   const computeExpensiveValue = (num) => {
+//     // Simulate a delay or expensive calculation
+//     let start = Date.now();
+//     while (Date.now() - start < 1000) {} // Simulate 1-second computation
+//     return num * 2;
+//   };
+
+//   const result = useMemo(() => computeExpensiveValue(num), [num]);
+
+//   return <p>Computed value: {result}</p>;
+// }
+
+// function App() {
+//   const [num, setNum] = useState(1);
+
+//   return (
+//     <div>
+//       <ExpensiveComponent num={num} />
+//       <button onClick={() => setNum(num + 1)}>Increment Number</button>
+//     </div>
+//   );
+// }
+
+// export default App;

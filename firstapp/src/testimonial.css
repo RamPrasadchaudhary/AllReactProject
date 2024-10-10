@@ -1,0 +1,36 @@
+.testimonal{
+   
+    height:100vh;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+}
+.leftside {
+    width:40%;
+    background-color: aliceblue;
+    text-align: center;
+   
+}
+.card-body{
+    width:80%;
+    height: 50vh;
+    border-width: 2px ;
+    background-color: rgb(29, 218, 155);
+    margin:30%  0 0 10%;
+    border-bottom:1px solid green;
+   
+}
+.rightside{
+    width:40%;
+    background-color: aliceblue;
+    text-align: center;
+}
+.card-footer{
+    text-align: left;
+    padding-left: 10%;
+ padding-top:50px;
+}
+.card-footer span{
+    color:red;
+    background-color: aqua;
+}

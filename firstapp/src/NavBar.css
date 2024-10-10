@@ -1,0 +1,44 @@
+/* src/NavBar.css */
+.navbar {
+    background-color: #333; /* Dark background */
+    padding: 0.5rem 2rem;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .navbar-nav {
+    list-style: none;
+    display: flex; /* Display navigation items inline */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin: 0 1rem; /* Horizontal spacing between items */
+  }
+  
+  .nav-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+  }
+  
+  .nav-item a:hover {
+    color: #FFEB3B; /* Yellow color on hover */
+    border-bottom: 2px solid #FFEB3B; /* Underline on hover */
+  }
+  
